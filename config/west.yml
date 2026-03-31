@@ -6,10 +6,12 @@ manifest:
       url-base: https://github.com/PandaKBLab
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: m165437
+      url-base: https://github.com/M165437 
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-for-PandaKB
       remote: PandaKBLab
@@ -17,5 +19,8 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+   - name: nice-view-gem 
+      remote: m165437 
+      revision: main 
   self:
     path: config
