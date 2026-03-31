@@ -9,12 +9,15 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: v0.3.0
       import: app/west.yml
     - name: zmk-for-PandaKB
       remote: PandaKBLab
       revision: PandaKB_Lily58
     - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+    - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
   self:
